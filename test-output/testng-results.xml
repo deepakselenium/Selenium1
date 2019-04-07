@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12227" started-at="2019-03-25T17:34:52Z" finished-at="2019-03-25T17:35:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12227" started-at="2019-03-25T17:34:52Z" finished-at="2019-03-25T17:35:04Z">
+      <class name="Test.FlightFinderComponentTest">
+        <test-method status="PASS" signature="verifyFlightFinder()[pri:2, instance:Test.FlightFinderComponentTest@548a9f61]" name="verifyFlightFinder" duration-ms="21" started-at="2019-03-25T17:35:04Z" description="Verfiy radio size" finished-at="2019-03-25T17:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightFinder -->
+      </class> <!-- Test.FlightFinderComponentTest -->
+      <class name="Test.LoginTest">
+        <test-method status="PASS" signature="setupEnvironment()[pri:0, instance:Test.LoginTest@4f933fd1]" name="setupEnvironment" is-config="true" duration-ms="5112" started-at="2019-03-25T17:34:52Z" finished-at="2019-03-25T17:34:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnvironment -->
+        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:Test.LoginTest@4f933fd1]" name="verifyLogin" duration-ms="6989" started-at="2019-03-25T17:34:57Z" description="Verfiy Login" finished-at="2019-03-25T17:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="closeEnvironment()[pri:0, instance:Test.LoginTest@4f933fd1]" name="closeEnvironment" is-config="true" duration-ms="82" started-at="2019-03-25T17:35:04Z" finished-at="2019-03-25T17:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeEnvironment -->
+      </class> <!-- Test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
